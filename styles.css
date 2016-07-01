@@ -1,0 +1,182 @@
+.wrap {
+  width: 1000px;
+  height: 1200px;
+  border: 1px solid #8080ff;
+  box-sizing: border-box;
+  background-color: #e6e6ff
+}
+
+.nav {
+  width: 1000px;
+  height: 75px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.btn1 {
+  width: 100px;
+  height: 25px;
+  background-color: pink;
+  border: 1px solid black;
+  box-sizing: border-box;
+  float:right;
+  position: relative;
+  top: 45px;
+}
+
+.btn2 {
+  width: 100px;
+  height: 25px;
+  background-color: purple;
+  border: 1px solid black;
+  box-sizing: border-box;
+  float:right;
+  position: relative;
+  top: 45px;
+}
+
+.btn3 {
+  width: 100px;
+  height: 25px;
+  background-color: red;
+  border: 1px solid black;
+  box-sizing: border-box;
+  float:right;
+  position: relative;
+  top: 45px;
+}
+
+.btn4 {
+  width: 100px;
+  height: 25px;
+  background-color: blue;
+  border: 1px solid black;
+  box-sizing: border-box;
+  float:right;
+  position: relative;
+  top: 45px;
+}
+
+.btn5 {
+  width: 100px;
+  height: 25px;
+  background-color: yellow;
+  border: 1px solid black;
+  box-sizing: border-box;
+  float:right;
+  position: relative;
+  top: 45px;
+}
+
+.btn6 {
+  width: 100px;
+  height: 25px;
+  background-color: green;
+  border: 1px solid black;
+  box-sizing: border-box;
+  float:right;
+  position: relative;
+  top: 45px;
+}
+
+.img {
+  width: 695px;
+  height:700px;
+  box-sizing: border-box;
+  float: left;
+  border: 1px solid black;
+}
+
+.exImg1 {
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 675px;
+  left: 25px;
+}
+
+.exImg2 {
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 675px;
+  left: 135px;
+}
+
+.exImg3 {
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 675px;
+  left: 245px;
+}
+
+
+.info {
+  width: 300px;
+  height: 700px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  float: right;
+}
+
+.cart {
+  width: 100px;
+  height: 25px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  float:right;
+  position: absolute;
+  top: 720px;
+  left: 900px;
+}
+
+.checkout {
+  width: 100px;
+  height: 25px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  float:right;
+  position: absolute;
+  top: 750px;
+  left: 900px;
+}
+
+#board {
+  position: absolute;
+  top: 275px;
+  left: 70px;
+}
+
+#planchette {
+  position:relative;
+  top: 150px;
+  left: 145px;
+}
+
+
+
+/*#planchette {
+  animation-name: shiftPlanchette;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+
+@keyframes shiftPlanchette {
+  0% { transform: translateX (-4em);
+  }
+  100% { transform: translateX (8em); }
+  }*/
