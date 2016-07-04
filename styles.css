@@ -71,7 +71,7 @@ a:hover {
 .exImg1 {
   float: left;
   box-sizing: border-box;
-  border: 1px solid black;
+  border: 1px solid grey;
   width: 100px;
   height: 100px;
   position: relative;
@@ -82,7 +82,7 @@ a:hover {
 
 .exImg2 {
   box-sizing: border-box;
-  border: 1px solid black;
+  border: 1px solid grey;
   width: 100px;
   height: 100px;
   position: relative;
@@ -93,7 +93,7 @@ a:hover {
 
 .exImg3 {
   box-sizing: border-box;
-  border: 1px solid black;
+  border: 1px solid grey;
   width: 100px;
   height: 100px;
   position: relative;
@@ -111,6 +111,21 @@ a:hover {
   padding: 0 15px 15px;
   line-height: 0;
   background-color: pink;
+}
+
+.alsoViewed {
+  box-sizing: border-box;
+  width: 970px;
+  height: 150px;
+  position: relative;
+  top: 700px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.alsoViewed p {
+  color: black;
+  position: relative;
 }
 
 h1 {
@@ -158,13 +173,13 @@ p:second-child {
 
 #board {
   position: absolute;
-  top: 275px;
+  top: 375px;
   left: 70px;
 }
 
 #planchette {
   position:relative;
-  top: 225px;
+  top: 325px;
   left: 200px;
 }
 
@@ -172,6 +187,14 @@ p:second-child {
   position:relative;
   top: 225px;
   left: 260px;
+}
+
+#view1, #view2, #view3, #view4, #view5 {
+  border: 1px solid grey;
+  height: 125px;
+  width: 125px;
+  float: left;
+  position: relative;
 }
 
 
