@@ -14,6 +14,10 @@ p, h1, a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #d3d3d3;
+}
+
 .siteTitle {
   font-family: "Sacramento";
   font-size: 75px;
@@ -43,7 +47,7 @@ p, h1, a {
 }*/
 
 .nav {
-  width: 100vw;
+  width: 99vw;
   border: 1px solid green;
 }
 
@@ -99,10 +103,10 @@ p, h1, a {
   margin-top: 15px;
   border: 1px solid green;
   height: 175px;
-  width: 100vw;
+  width: 99vw;
   box-sizing: border-box;
   position: absolute;
-  top: 735px;
+  top: 745px;
 }
 
 .cart {
@@ -138,7 +142,7 @@ p, h1, a {
   left: 15px;
 }
 
-.viewed {
+.view1, .view2, .view3, .view4, .view5 {
   width: 100px;
   height: 100px;
   float: left;
@@ -146,11 +150,12 @@ p, h1, a {
   margin-right: 10px;
 }
 
-#view1, #view2, #view3, #view4, #view5 {
-  width: 100px;
-  height: 100px;
-}
+.view1:hover, .view2:hover, .view3:hover, .view4:hover, .view:hover {
+   width: 300px;
+   border: 1px solid pink;
+ }
 
-#view1:hover {
-   width: 300px;  
+.cat, .tarot, .plush, .plushCouple, .necklace {
+  width: 100%;
+  float: left;
 }
