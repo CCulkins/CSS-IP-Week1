@@ -7,24 +7,26 @@
   clear: both;
 }
 
-p, h1, a {
+p, h1, a, .checkout, .cart {
   font-family: 'Maven Pro', sans-serif;
   font-weight: 400;
-  color: darkgrey;
+  color: #2a2a2a;
   text-decoration: none;
 }
 
-a:hover {
-  color: #d3d3d3;
-}
 
 .siteTitle {
   font-family: "Sacramento";
   font-size: 75px;
-  color: darkgrey;
+  color: #2a2a2a;
   line-height: 0;
   position: relative;
+  top: 50px;
   left: 300px;
+}
+
+a:hover {
+  color: #d3d3d3;
 }
 
 .btn4, .btn3, .btn2, .btn1 {
@@ -48,12 +50,12 @@ a:hover {
 
 .nav {
   width: 99vw;
-  border: 1px solid green;
+  background-color: #A88BA5;
 }
 
 .main {
   box-sizing: border-box;
-  border: 1px solid pink;
+  border: 1px solid #A698BD;
   position: absolute;
   top: 225px;
   width: 675px;
@@ -86,7 +88,7 @@ a:hover {
   height: 100px;
   width: 100px;
   float: left;
-  border: 1px solid grey;
+  border: 1px solid #A88BA5;
 }
 
 .bag, .cards, .cover {
@@ -98,7 +100,7 @@ float: left;
   position: absolute;
   left: 700px;
   top: 0px;
-  border: 1px solid red;
+  background-color: #C3C8E1;
   width: 41.5vw;
   height: 475px;
   padding: 15px;
@@ -108,10 +110,10 @@ float: left;
 .cart {
   width: 100px;
   height: 25px;
-  background-color: black;
-  color: white;
+  background-color: #A698BD;
   box-sizing: border-box;
   position: relative;
+  font-weight: bold;
   top: 50px;
   left: 400px;
   text-align: center;
@@ -121,10 +123,9 @@ float: left;
 .checkout {
   width: 100px;
   height: 25px;
-  background-color: black;
-  color: white;
-  border: 1px solid black;
+  background-color: #A698BD;
   box-sizing: border-box;
+  font-weight: bold;
   position: relative;
   top: 60px;
   left: 400px;
@@ -134,7 +135,7 @@ float: left;
 
 .footer {
   margin-top: 15px;
-  border: 1px solid green;
+  background-color: #A698BD;
   height: 175px;
   width: 99vw;
   box-sizing: border-box;
@@ -148,7 +149,7 @@ float: left;
   box-sizing: border-box;
   position: relative;
   left: 10px;
-  border: 1px solid pink;
+  border: 1px solid #A88BA5;
   float: left;
   margin-right: 10px;
 }
@@ -170,6 +171,11 @@ float: left;
 }
 .hide:hover {
   opacity: 10;
+}
+
+.viewed {
+  position: relative;
+  left: 10px;
 }
 
 /*.view2 {
