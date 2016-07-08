@@ -36,18 +36,6 @@ a:hover {
   font-size: 20px;
 }
 
-/*.wrap {
-  width: 100%;
-  height: 100%;
-  border: 1px solid red;
-}*/
-
-/*.header {
-  width: 100vw;
-  border: 3px solid pink;
-  background: grey;
-}*/
-
 .nav {
   width: 99vw;
   background-color: #A88BA5;
@@ -137,8 +125,8 @@ a:hover {
 }
 
 .bag, .cards, .cover {
-width: 100%;
-float: left;
+  width: 100%;
+  float: left;
 }
 
 .info {
@@ -200,10 +188,9 @@ float: left;
 }
 
 .cat, .tarot, .plush, .plushCouple, .necklace {
-width: 100%;
-float: left;
+  width: 100%;
+  float: left;
 }
-
 
 #ghost {
   position: relative;
@@ -222,20 +209,3 @@ float: left;
   position: relative;
   left: 10px;
 }
-
-/*.view2 {
-  box-sizing: border-box;
-  position: relative;
-  left: 100px;
-  border: 1px solid pink;
-
-}*/
-
-
-
-
-
-/*.view1:hover, .view2:hover, .view3:hover, .view4:hover, .view:hover {
-   width: 300px;
-   border: 1px solid pink;
- }*/
