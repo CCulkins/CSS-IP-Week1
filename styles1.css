@@ -89,6 +89,11 @@ a:hover {
   border: 1px solid grey;
 }
 
+.bag, .cards, .cover {
+width: 100%;
+float: left;
+}
+
 .info {
   position: absolute;
   left: 700px;
@@ -99,15 +104,6 @@ a:hover {
   padding: 15px;
 }
 
-.footer {
-  margin-top: 15px;
-  border: 1px solid green;
-  height: 175px;
-  width: 99vw;
-  box-sizing: border-box;
-  position: absolute;
-  top: 745px;
-}
 
 .cart {
   width: 100px;
@@ -136,26 +132,59 @@ a:hover {
   line-height: normal;
 }
 
-.alsoViewed {
-  position: relative;
-  top: 550px;
-  left: 15px;
+.footer {
+  margin-top: 15px;
+  border: 1px solid green;
+  height: 175px;
+  width: 99vw;
+  box-sizing: border-box;
+  position: absolute;
+  top: 745px;
 }
 
 .view1, .view2, .view3, .view4, .view5 {
   width: 100px;
   height: 100px;
-  float: left;
+  box-sizing: border-box;
+  position: relative;
+  left: 10px;
   border: 1px solid pink;
+  float: left;
   margin-right: 10px;
 }
 
-.view1:hover, .view2:hover, .view3:hover, .view4:hover, .view:hover {
+.cat, .tarot, .plush, .plushCouple, .necklace {
+width: 100%;
+float: left;
+}
+
+
+#ghost {
+  position: relative;
+  left: 350px;
+  top: -40px;
+}
+
+.hide {
+  opacity: 0;
+}
+.hide:hover {
+  opacity: 10;
+}
+
+/*.view2 {
+  box-sizing: border-box;
+  position: relative;
+  left: 100px;
+  border: 1px solid pink;
+
+}*/
+
+
+
+
+
+/*.view1:hover, .view2:hover, .view3:hover, .view4:hover, .view:hover {
    width: 300px;
    border: 1px solid pink;
- }
-
-.cat, .tarot, .plush, .plushCouple, .necklace {
-  width: 100%;
-  float: left;
-}
+ }*/
