@@ -2,7 +2,7 @@
 
 #### _This application is a front-end for an oddity merchant site., 07/08/2016_
 
-#### By _**Cassandra Culkins & Niem Nguyen**_
+#### By _**Cassandra Culkins**_
 
 ## Description
 
